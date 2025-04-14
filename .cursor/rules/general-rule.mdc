@@ -1,0 +1,93 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+# プロジェクトの目的
+
+## 成果物
+
+- このプロジェクトではドキュメントを作成します。
+- 成果物はMarkdown形式とします。
+
+## 作図
+
+- わかりやすいドキュメントとするために図を多様してください。
+- 作成する図の拡張子は.drawio.svgとします。
+- drawioで編集し直接Markdownに表示できるようにします。
+
+### 図解の活用
+
+- 各セクションに .drawio.svg 形式の図を配置
+- 複雑な概念や関係性を視覚的に説明
+
+## 段階的な情報提供
+
+- 基本的な概念から応用的なトピックへと段階的に進む構成
+- 初学者でも理解しやすい流れを意識
+
+## 実践的な内容
+
+- 理論だけでなく、具体的な事例や実践方法を含む
+- 成功・失敗の両面から学べる構成
+
+## ファイル構成
+
+### 階層的な整理
+
+- トピックごとにディレクトリを分け、関連する内容をグループ化
+- 各セクションは独立して読めるよう構成
+
+### 相対パスでの参照
+
+- リポジトリ内のファイルを参照する場合は相対パスを使用する
+
+### 例
+
+/
+├── README.md
+├── introduction/
+│   ├── purpose.md                    # プロジェクトの目的と概要
+│   ├── overview.drawio.svg           # プロジェクト全体の概要図
+│   └── target-audience.md            # 想定読者と前提知識
+│
+├── agile-principles/
+│   ├── core-values.md                # アジャイルの基本的な価値観
+│   ├── principles.md                 # アジャイル開発の12の原則
+│   └── agile-workflow.drawio.svg     # アジャイルワークフローの図解
+│
+├── scaling-agile/
+│   ├── challenges.md                 # 大規模開発での課題
+│   ├── solutions.md                  # 課題への対応策
+│   ├── frameworks/
+│   │   ├── safe.md                   # SAFeフレームワーク
+│   │   ├── less.md                   # LeSS
+│   │   └── comparison.drawio.svg     # フレームワーク比較図
+│   └── organization.drawio.svg       # 組織構造の図解
+│
+├── team-structure/
+│   ├── roles.md                      # チーム内の役割定義
+│   ├── communication/
+│   │   ├── channels.md               # コミュニケーションチャネル
+│   │   ├── meetings.md               # ミーティング構成
+│   │   └── flow.drawio.svg          # 情報の流れの図解
+│   └── team-topology.drawio.svg      # チーム構成図
+│
+├── progress-tracking/
+│   ├── metrics.md                    # 主要な進捗指標
+│   ├── tools.md                      # 使用ツール解説
+│   └── dashboard.drawio.svg          # ダッシュボード例の図解
+│
+├── quality-assurance/
+│   ├── strategy.md                   # 品質保証戦略
+│   ├── testing.md                    # テスト戦略
+│   └── pipeline.drawio.svg          # CI/CDパイプライン図
+│
+└── case-studies/
+    ├── success-stories/
+    │   └── case1.md                  # 成功事例1
+    ├── failure-analysis/
+    │   └── case1.md                  # 失敗事例と学び1
+    └── lessons-learned.md            # 総括と教訓
+    
