@@ -14,7 +14,7 @@
 
 ## 目次
 - [はじめに](introduction/overview.md)
-- [プロセス](process/overview.md)
+- [プロセスとは](process/overview.md)
 - [アジャイル開発の原則](#agile-principles)
 - [大規模プロジェクトへの適用](#scaling-agile)
 - [チーム構成とコミュニケーション](#team-structure-and-communication)
