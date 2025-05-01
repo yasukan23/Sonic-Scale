@@ -13,11 +13,11 @@
 
 
 ## 目次
-- [はじめに](introduction/overview.md)
-- [プロセスとは](process/overview.md)
-- [アジャイル開発の原則](#agile-principles)
-- [大規模プロジェクトへの適用](#scaling-agile)
-- [チーム構成とコミュニケーション](#team-structure-and-communication)
-- [進捗管理と品質保証](#progress-tracking-and-quality-assurance)
-- [成功事例と失敗事例](#case-studies)
-- [まとめ](#conclusion)
+- [1.はじめに](doc/1.はじめに.md)
+- [2.プロセスとは](doc/2.プロセスとは.md)
+- [3.アジャイル開発の原則](doc/3.アジャイル開発の原則.md)
+- [4.大規模プロジェクトへの適用](doc/4.大規模プロジェクトへの適用.md)
+- [5.チーム構成とコミュニケーション](doc/5.チーム構成とコミュニケーション.md)
+- [6.進捗管理と品質保証](doc/6.進捗管理と品質保証.md)
+- [7.成功事例と失敗事例](doc/7.成功事例と失敗事例.md)
+- [8.まとめ](doc/8.まとめ.md)
